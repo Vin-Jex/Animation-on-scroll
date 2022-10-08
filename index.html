@@ -1,0 +1,128 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <!-- AOS CSS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Animate on scroll</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>
+        <span>Random Images</span>
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, minima!
+      </p>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <img src="./assets/IMG_20220615_175802.jpg" alt="Aquaman" />
+        <div>
+          <h3>Aquaman</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+            porro voluptatibus possimus ipsa officia. Perferendis repudiandae
+            fuga officia quis fugit nobis ipsum sed, at nihil doloremque impedit
+            quas et praesentium!
+          </p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-up">
+        <img src="./assets/IMG_20220615_175420.jpg" alt="Steve and Dustin" />
+        <div>
+          <h3>Strangers Things Cast</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+            porro voluptatibus possimus ipsa officia. Perferendis repudiandae
+            fuga officia quis fugit nobis ipsum sed, at nihil doloremque impedit
+            quas et praesentium!
+          </p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-right">
+        <img
+          src="./assets/pexels-photo-1450360 - Copy.jpeg"
+          alt="Beautiful Beach Scene"
+        />
+        <div>
+          <h3>Beach With A Blue Sky</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+            porro voluptatibus possimus ipsa officia. Perferendis repudiandae
+            fuga officia quis fugit nobis ipsum sed, at nihil doloremque impedit
+            quas et praesentium!
+          </p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-left">
+        <img src="./assets/pexels-photo-1656579 - Copy.jpeg" alt="Blue Sea" />
+        <div>
+          <h3>Beautiful Blue Sea Storm Scene</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+            porro voluptatibus possimus ipsa officia. Perferendis repudiandae
+            fuga officia quis fugit nobis ipsum sed, at nihil doloremque impedit
+            quas et praesentium!
+          </p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-up">
+        <img
+          src="./assets/pexels-photo-3183150 - Copy.jpeg"
+          alt="Project Planning"
+        />
+        <div>
+          <h3>Team Project Planning Scene</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+            porro voluptatibus possimus ipsa officia. Perferendis repudiandae
+            fuga officia quis fugit nobis ipsum sed, at nihil doloremque impedit
+            quas et praesentium!
+          </p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-left">
+        <img
+          src="./assets/pexels-photo-3748035 - Copy.jpeg"
+          alt="Beautiful Rocks at Sea Bed"
+        />
+        <div>
+          <h3>Beautiful Rocks at Sea Bed</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+            porro voluptatibus possimus ipsa officia. Perferendis repudiandae
+            fuga officia quis fugit nobis ipsum sed, at nihil doloremque impedit
+            quas et praesentium!
+          </p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- AOS JavaScript CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 800,  // values from 0 to 3000, with step 50ms
+      });
+    </script>
+  </body>
+</html>
