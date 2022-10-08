@@ -101,4 +101,17 @@ img {
   .card {
     display: block;
   }
+
+  .card img {
+  height: auto;
+}
+
+.card:first-child img {
+  height: auto;
+}
+
+.card:nth-child(5)  img{
+  height: auto;
+}
+
 }
